@@ -35,7 +35,7 @@ func init() {
 	}
 	MsEngine.ShowSQL(true)
 	MsEngine.Logger().SetLevel(core.LOG_DEBUG)
-	//113.142.35.56
+	//
 	MyEngine, err = xorm.NewEngine("mysql", "root:123456@tcp(127.0.0.1:3306)/intro_oa?charset=utf8")
 	if err != nil {
 		log.Println("新建mysql引擎", err)
